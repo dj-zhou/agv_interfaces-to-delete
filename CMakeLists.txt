@@ -22,6 +22,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JoyCmd.msg"
   "srv/JoySetLimit.srv"
+  "srv/AddThreeInts.srv"
  )
 
 if(BUILD_TESTING)
